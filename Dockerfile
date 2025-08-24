@@ -2,7 +2,7 @@
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
-FROM python:3.10-slim-bullseye   # ✅ use newer supported Debian
+FROM python:3.10-slim-bullseye
 
 # Install system updates & git
 RUN apt-get update && apt-get upgrade -y
